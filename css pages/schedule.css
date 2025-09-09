@@ -1,0 +1,75 @@
+
+    :root{
+      --accent: #ff3d00;
+      --muted: #f7f7f7;
+      --bg: #fafafa;
+      --dark: #111;
+      --max-w: 1200px;
+    }
+
+    *,*::before,*::after{box-sizing:border-box}
+    body{font-family: Inter,Segoe UI,Roboto,Arial,sans-serif; margin:0; background:var(--bg); color:var(--dark)}
+
+    /* ---------------- Top Bar ---------------- */
+    .top-bar{background:var(--muted); border-bottom:1px solid rgba(0,0,0,0.05); font-size:14px}
+    .top-inner{max-width:var(--max-w); margin:0 auto; padding:8px 20px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px}
+    .top-left span{margin-right:22px; color:#050505; display:inline-flex; align-items:center}
+    .top-left i{margin-right:8px; color:var(--accent)}
+    .top-right{display:flex; align-items:center; flex-wrap:wrap; gap:6px}
+    .top-right b{margin-right:6px}
+    .top-right a{color:var(--accent); text-decoration:none; transition:color .18s}
+    .top-right a:hover{color:#008cff}
+
+    /* ---------------- Header ---------------- */
+    .header{background:#fff; box-shadow:0 2px 14px rgba(0,0,0,0.06); position:sticky; top:0; z-index:20}
+    .head-inner{max-width:var(--max-w); margin:0 auto; padding:10px 20px; display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap}
+
+    .brand{font-size:22px; font-weight:700; letter-spacing:.12em; color:var(--dark)}
+
+    .nav{display:flex; gap:26px; align-items:center; flex-wrap:wrap}
+    .nav a{text-decoration:none; font-weight:500; font-size:15px; color:#222; transition:color .18s}
+    .nav a:hover,.nav a.active{color:var(--accent); font-weight:600}
+
+    .visit-btn{display:inline-flex; align-items:center; gap:10px; background:#fff; border:1px solid #eee; border-radius:30px; padding:10px 14px; text-decoration:none; font-weight:600; color:var(--dark); box-shadow:0 4px 12px rgba(0,0,0,0.06)}
+    .visit-btn .bubble{display:inline-grid; place-items:center; width:28px; height:28px; background:#ffefe9; color:#ff471a; border-radius:50%; font-size:14px}
+
+    /* ---------------- Schedule form ---------------- */
+    .schedule-wrapper{max-width:900px; margin:48px auto; padding:0 20px}
+    .schedule-card{background:#fff; padding:28px; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.06)}
+    .schedule-card h2{margin:0 0 18px; text-align:center}
+
+    .input-group{position:relative; margin-bottom:15px}
+    .input-group i{position:absolute; left:12px; top:50%; transform:translateY(-50%); color:var(--accent); font-size:16px; transition:color .3s}
+    .input-group.textarea i{top:18px; transform:none}
+
+    .input-group input,
+    .input-group textarea{width:100%; padding:10px 12px 10px 40px; border-radius:8px; border:1px solid #d9d9d9; font-size:15px}
+
+    .input-group input:focus + i,
+    .input-group textarea:focus + i,
+    .input-group input:focus,
+    .input-group textarea:focus{border-color:var(--accent); color:var(--accent)}
+
+    .row-2{display:flex; gap:12px; flex-wrap:wrap}
+    .row-2 .col{flex:1}
+
+    .btn-submit{background:var(--accent); color:#fff; border:none; width:100px; padding:12px; border-radius:8px; font-size:16px; cursor:pointer; transition:.3s; text-align: center; align-content: center; align-items: center; justify-items: center;}
+    .btn-submit:hover{opacity:.95}
+
+    @media (max-width:720px){
+      .row-2{flex-direction:column}
+      .nav{width:100%; order:2; justify-content:center; margin-top:8px}
+      .visit-btn{order:3}
+      .brand{order:1}
+      .top-left span{margin-right:10px; font-size:13px}
+      .top-right a{margin-left:4px; font-size:13px}
+    }
+
+    @media (max-width:480px){
+      .brand{font-size:18px}
+      .nav{gap:12px; font-size:14px}
+      .visit-btn{padding:8px 12px; font-size:14px}
+    }
+
+    a:focus, button:focus, input:focus, textarea:focus{outline:3px solid rgba(0,132,255,0.15); outline-offset:2px}
+  
