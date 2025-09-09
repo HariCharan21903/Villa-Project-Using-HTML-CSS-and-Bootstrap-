@@ -23,7 +23,7 @@ Villa-Project-Using-HTML-CSS-and-Bootstrap- <br>
 ✨ Implemented smooth scroll effect for navigation links. <br>
 ✨ Added favicon and branding consistency. <br>
 
----
+-----------------------------------------------------------------------------------------------------
 
 ## 🛠️ Technologies Used
 - **HTML5** 🌐  
@@ -31,10 +31,15 @@ Villa-Project-Using-HTML-CSS-and-Bootstrap- <br>
 - **Bootstrap 5** 🖌️  
 - **JavaScript** ⚡  
 
----
+------------------------------------------------------------------------------------------------------
 
 ## 🚀 How to Run the Project
 1️⃣ Clone this repository:  
 ```bash
 git clone https://github.com/HariCharan21903/Villa-Project-Using-HTML-CSS-and-Bootstrap-.git
+-------------------------------------------------------------------------------------------------------
+2️⃣ Open the folder in VS Code. <br>
+3️⃣ Open index.html in your browser. <br>
 
+📸 Preview
+-------------------------------------------------------------------------------------------------------
