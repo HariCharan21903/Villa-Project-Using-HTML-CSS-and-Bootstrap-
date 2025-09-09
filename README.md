@@ -37,9 +37,31 @@ Villa-Project-Using-HTML-CSS-and-Bootstrap- <br>
 1️⃣ Clone this repository:  
 ```bash
 git clone https://github.com/HariCharan21903/Villa-Project-Using-HTML-CSS-and-Bootstrap-.git
--------------------------------------------------------------------------------------------------------
+---
 2️⃣ Open the folder in VS Code. <br>
 3️⃣ Open index.html in your browser. <br>
-
+---
 📸 Preview
--------------------------------------------------------------------------------------------------------
+---
+✍️ Author
+
+👨‍💻 Hari Charan Reddy <br>
+📧 Email: haricharanreddy2003@gmail.com
+ <br>
+📞 Phone: +91 89254 37582 <br>
+🔗 GitHub Profile
+ <br>
+---
+
+📜 License
+
+🆓 This project is open-source and available under the MIT License.
+---
+
+---
+
+This version will display **line-by-line with icons** on GitHub and look much cleaner. <br>
+ 
+
+Do you want me to **directly replace your README file** in your GitHub repo with this content so you don’t have to edit it manually?
+
