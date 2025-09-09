@@ -1,9 +1,3 @@
-Alright ✅
-Here’s your **full professional README.md** with a **heading line**, **grouped sections**, and **line-by-line updates** using `<br>` so it looks neat on GitHub.
-
----
-
-````md
 # 🏡 Villa Project Using HTML, CSS, and Bootstrap
 
 A responsive and elegant villa showcase website built using **HTML5**, **CSS3**, and **Bootstrap 5**.  
@@ -20,7 +14,7 @@ This project highlights villas, amenities, and booking options with a modern and
 ✅ Created `style.css` with basic styling for layout.<br>
 ✅ Added images folder with villa pictures.<br>
 
-### 🎨 UI & Layout Design
+### 🎨 Layout Design
 ✅ Created navigation bar with logo and menu items.<br>
 ✅ Added hero/banner section with call-to-action.<br>
 ✅ Designed properties section with sample property cards.<br>
