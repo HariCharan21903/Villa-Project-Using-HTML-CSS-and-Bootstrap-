@@ -72,7 +72,7 @@ git clone https://github.com/HariCharan21903/Villa-Project-Using-HTML-CSS-and-Bo
 
 👨‍💻 **Hari Charan Reddy** <br>
 📧 Email: **[haricharanreddy2003@gmail.com](mailto:haricharanreddy2003@gmail.com)** <br>
-📞 Phone: **+91 89254 37582** <br>
+<br>
 🔗 [GitHub Profile](https://github.com/HariCharan21903) <br>
 
 ---
